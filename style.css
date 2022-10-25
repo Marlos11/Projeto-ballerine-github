@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.Titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.img-logo {
+    height: 72px;
+
+}
+
+.link {
+    display: flex;
+    gap: 32px;
+
+
+}
+
+.menu-link {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.principal {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudo-proncipal2 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+h1 {
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+h2 {
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #ECD6C4;
+}
+
+
+button {
+    font-family: 'Sarala';
+    width: 185px;
+    height: 67px;
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #2F2325;
+    cursor:pointer; 
+    
+}
+
+.imag-ballebot {
+    height: 430px;
+
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+
+h3 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Sarala';
+    font-weight: 700px;
+    font-size: 18px;
+
+
+}
+footer{
+    border: 0.4px solid #FFF2E7;
+padding:  48px;
+}
+
+.imag-ballerini{
+
+display: block;
+margin: 0 auto;
+height: 48px;
+
+}
